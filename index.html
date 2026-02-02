@@ -1,31 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>About Me</h1>
-    </header>
-    <main>
-        <section class="intro">
-            <h2>Welcome</h2>
-            <p>This is your about me page. Add your personal information here.</p>
-        </section>
-        <section class="content">
-            <h2>My Interests</h2>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 All rights reserved.</p>
-    </footer>
+
+  <header class="centered-list1">
+    <h1>Welcome</h1>
+    <h1>About</h1>
+    <h1>Skills</h1>
+    <h1>Projects</h1>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <h2>Welcome to Rohan's Page</h2>
+      <p class="centered-list">Scroll down to learn more about me!</p>
+    </section>
+
+    <section class="content">
+      <h2>About Me</h2>
+      <img src="assets/IMG_9819.jpeg" alt="Rohan profile photo" class="profile-photo">
+
+      <p class="centered-list">
+        Hello! I'm Rohan, a passionate web developer with a love for creating
+        clean, functional, and user-friendly websites.
+      </p>
+    </section>
+
+    <section class="content">
+      <h2>My Skills</h2>
+
+      <!-- 3 x 2 TABLE -->
+      <table class="my-table">
+        <tr>
+          <td><img src="assets/html5-brands-solid-full%20%283%29.svg" alt="HTML5 logo" class="skill-image" /></td>
+          <td><img src="assets/python-brands-solid-full.svg" alt="Python logo" class="skill-image" /></td>
+          <td><img src="assets/music-solid-full.svg" alt="Music icon" class="skill-image" /></td>
+        </tr>
+        <tr>
+          <td>HTML & CSS</td>
+          <td>Python</td>
+          <td>Music Creation</td>
+        </tr>
+      </table>
+
+    </section>
+
+    <section classs="content">
+      <h2>Projects</h2>
+      <table class="my-table">
+        <tr>
+          <td>
+            <table class="center-table">
+              <tr>
+                <td>Consumer Website</td><!-- Table 1 -->
+              </tr>
+            </table>
+
+          </td>
+          <td>
+            <table class="center-table">
+              <tr>
+                <td>AI-Powered EEG Headband </td> <!-- Table 2 -->
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table class="center-table">
+              <tr>
+                <td>Business Process Automation</td> <!-- Table 3 -->
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
