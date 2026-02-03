@@ -7,27 +7,27 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <header class="centered-list1">
-    <h1>Welcome</h1>
-    <h1>About</h1>
-    <h1>Skills</h1>
-    <h1>Projects</h1>
+    <h1><a href="#welcome">Welcome</a></h1>
+    <h1><a href="#about">About</a></h1>
+    <h1><a href="#skills">Skills</a></h1>
+    <h1><a href="#projects">Projects</a></h1>
   </header>
 
   <main>
 
-    <section class="intro">
+    <section class="intro" id="welcome">
       <h2>Welcome to Rohan's Page</h2>
       <p class="centered-list">Scroll down to learn more about me!</p>
     </section>
 
-    <section class="content">
+    <section class="content" id="about">
       <h2>About Me</h2>
       <img src="assets/IMG_9819.jpeg" alt="Rohan profile photo" class="profile-photo">
 
@@ -37,7 +37,7 @@
       </p>
     </section>
 
-    <section class="content">
+    <section class="content" id="skills">
       <h2>My Skills</h2>
 
       <!-- 3 x 2 TABLE -->
@@ -56,34 +56,41 @@
 
     </section>
 
-    <section classs="content">
+    <section class="content" id="projects">
       <h2>Projects</h2>
-      <table class="my-table">
+      <table class="center-table">
         <tr>
+          <td class="text-red">Business Process Automation</td>
           <td>
-            <table class="center-table">
-              <tr>
-                <td>Consumer Website</td><!-- Table 1 -->
-              </tr>
-            </table>
-
-          </td>
-          <td>
-            <table class="center-table">
-              <tr>
-                <td>AI-Powered EEG Headband </td> <!-- Table 2 -->
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table class="center-table">
-              <tr>
-                <td>Business Process Automation</td> <!-- Table 3 -->
-              </tr>
-            </table>
+            <ul>
+              <p>1. Designed automated booking, inventory and payment system for a small business</p>
+              <p>2. Designed workflow diagrams, WBS, and validation plans for system deployment</p>
+            </ul>
           </td>
         </tr>
-      </table>
+        </table>
+        <table class="center-table">
+        <tr>
+          <td class="text-red">AI-Powered EEG Headband</td>
+          <td>
+            <ul>
+              <p>1. Developed Python modules to simulate EEG headband data, extract signal features, and compute real-time focus scores</p>
+              <p>2. Used Stable Diffusion image generation to create AI-generated UI mockups and visual outputs for the headband companion app</p>
+            </ul>
+          </td>
+        </tr>
+        </table>
+        <table class="center-table">
+        <tr>
+          <td class="text-red">Consumer Website</td>
+          <td>
+            <ul>
+              <p>1. Developed an e-commerce website enabling consumers to shop for clothing items</p>
+              <p>2. Integrated a feature allowing users to personalize products with their designs</p>
+            </ul>
+          </td>
+        </tr>
+        </table>
 
     </section>
 
